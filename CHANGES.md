@@ -1,3 +1,6 @@
+### 2.0.1
+* Improved positioning of HighlightActor in PopTable
+
 ### 2.0.0
 * Added SystemCursorListener
 * Added SplitPaneSystemCursorListener
