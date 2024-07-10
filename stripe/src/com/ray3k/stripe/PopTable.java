@@ -643,6 +643,7 @@ public class PopTable extends Table {
     @Override
     public void draw(Batch batch, float parentAlpha) {
         if (highlightActor != null) {
+            //todo:this technique does not work with children that have transform enabled like ScrollPane
             temp.setZero();
             highlightActor.localToStageCoordinates(temp);
             float oldX = highlightActor.getX();
