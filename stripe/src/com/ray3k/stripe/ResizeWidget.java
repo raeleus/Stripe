@@ -67,6 +67,7 @@ public class ResizeWidget extends WidgetGroup {
     
     public ResizeWidget(Actor actor, ResizeWidgetStyle style) {
         setTouchable(Touchable.enabled);
+        setTransform(false);
         resizingFromCenter = false;
         this.actor = actor;
         
